@@ -1,0 +1,181 @@
+<!-- ====== FOOTER ====== -->
+<footer class="footer">
+  <div class="footer-container">
+    
+    <!-- Column 1: Brand / About -->
+    <div class="footer-col">
+      <a href="index.jsp">
+        <img src="images/logo-main.png" alt="ShopSmart Logo" class="footer-logo">
+      </a>
+      <p>"Your trusted hub for shopping smarter, faster, and better."</p>
+      <p>Explore products, exclusive deals, and earn rewards with us.</p>
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-telegram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+
+    <!-- Column 2: Quick Links -->
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.jsp">Home</a></li>
+        <li><a href="shop.jsp">Shop</a></li>
+        <li><a href="cart.jsp">My Cart</a></li>
+        <li><a href="orders.jsp">My Orders</a></li>
+        <li><a href="deals.jsp">Deals & Offers</a></li>
+        <li><a href="signin.jsp">My Account</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 3: Support & Legal -->
+    <div class="footer-col">
+      <h4>Support & Legal</h4>
+      <ul>
+        <li><a href="support.jsp">Help & Support (FAQ)</a></li>
+        <li><a href="support.jsp">Return & Refund Policy</a></li>
+        <li><a href="support.jsp">Terms & Conditions</a></li>
+        <li><a href="support.jsp">Privacy Policy</a></li>
+        <li><a href="support.jsp">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Column 4: Contact + Newsletter -->
+    <div class="footer-col">
+      <h4>Contact Us</h4>
+      <p><i class="fas fa-map-marker-alt"></i> Mumbai, India</p>
+      <p><i class="fas fa-phone-alt"></i> +91-9876543210</p>
+      <p><i class="fas fa-envelope"></i> support@shopsmart.com</p>
+      <p><i class="fas fa-clock"></i> Mon–Sat, 9 AM – 8 PM</p>
+      <div class="newsletter">
+        <p>Subscribe for exclusive deals & updates</p>
+        <input type="email" placeholder="Enter your Email">
+        <button>Subscribe</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="footer-bottom">
+    <p>© 2025 ShopSmart Ecommerce. All Rights Reserved.</p>
+    <p>Designed & Managed by <span>ShopSmart Team</span></p>
+  </div>
+</footer>
+
+<!-- ====== CSS FOR FOOTER ====== -->
+<style>
+  .footer {
+    background: #f9f9f9;
+    color: #444;
+    padding: 50px 20px 20px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.08);
+  }
+
+  .footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .footer-logo {
+    max-width: 180px;
+    height: auto;
+    margin-bottom: 15px;
+    display: block;
+  }
+
+  .footer-col h4 {
+    color: #222;
+    margin-bottom: 12px;
+    font-weight: bold;
+  }
+
+  .footer-col p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 8px;
+  }
+
+  .footer-col ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .footer-col ul li {
+    margin: 8px 0;
+  }
+
+  .footer-col ul li a {
+    color: #444;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+  }
+
+  .footer-col ul li a:hover {
+    color: #0077ff;
+  }
+
+  .social-icons a {
+    margin-right: 12px;
+    font-size: 18px;
+    color: #666;
+    transition: color 0.3s, transform 0.2s;
+  }
+
+  .social-icons a:hover {
+    color: #0077ff;
+    transform: scale(1.1);
+  }
+
+  .newsletter input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-top: 8px;
+    margin-right: 5px;
+    width: 60%;
+    font-size: 14px;
+  }
+
+  .newsletter button {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 4px;
+    background: #0077ff;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+
+  .newsletter button:hover {
+    background: #005fcc;
+  }
+
+  .footer-bottom {
+    border-top: 1px solid #ddd;
+    margin-top: 25px;
+    padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #666;
+  }
+
+  .footer-bottom span {
+    color: #0077ff;
+    font-weight: bold;
+  }
+</style>
+
+<!-- ====== FONT AWESOME CDN ====== -->
+<script src="https://kit.fontawesome.com/a045bf9ae9.js" crossorigin="anonymous"></script>
